@@ -1,14 +1,20 @@
 
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Thesis from "@/components/Thesis";
-import ExecutionModel from "@/components/ExecutionModel";
+import Features from "@/components/Features";
+import Projects from "@/components/Projects";
+import Vision from "@/components/Vision";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="bg-dark min-h-screen">
+      <Header />
       <Hero />
-      <Thesis />
-      <ExecutionModel />
+      <Features />
+      <Projects />
+      <Vision />
+      <Footer />
     </div>
   );
 };
