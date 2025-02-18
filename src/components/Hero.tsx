@@ -1,5 +1,5 @@
 
-import { ArrowRight, Mail, MessageSquare } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -19,14 +19,20 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 pt-8 animate-fade-up [animation-delay:750ms]">
-          <button className="group flex items-center gap-2 px-6 py-3 bg-neon-green text-dark font-semibold rounded-lg transition-all hover:scale-105">
-            <Mail className="h-4 w-4" />
-            Sign up for updates
-          </button>
-          <button className="group flex items-center gap-2 px-6 py-3 bg-white/5 backdrop-blur-lg text-white font-semibold rounded-lg border border-white/10 transition-all hover:bg-white/10">
-            <MessageSquare className="h-4 w-4" />
-            Contact us
-          </button>
+          <form className="flex gap-2 w-full max-w-md">
+            <input 
+              type="email" 
+              placeholder="Enter your email" 
+              className="flex-1 px-4 py-3 bg-white/5 backdrop-blur-lg text-white rounded-lg border border-white/10 focus:border-neon-green focus:outline-none"
+            />
+            <button 
+              type="submit" 
+              className="flex items-center gap-2 px-6 py-3 bg-neon-green text-dark font-semibold rounded-lg transition-all hover:scale-105"
+            >
+              <Mail className="h-4 w-4" />
+              Subscribe
+            </button>
+          </form>
         </div>
       </div>
     </section>

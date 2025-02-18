@@ -36,6 +36,10 @@ const projects = [
     title: "Creator Economy",
     description: "Empowering creators with AI-powered tools and platforms.",
   },
+  {
+    title: "Data Analytics",
+    description: "Turning data into actionable insights through AI-powered analytics.",
+  },
 ];
 
 export default Projects;
