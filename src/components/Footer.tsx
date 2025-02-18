@@ -7,8 +7,12 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <h2 className="text-2xl md:text-4xl font-bold font-mono leading-tight">
           Join the future of
-          <span className="text-neon-green"> venture building.</span>
+          <span className="text-neon-green"> hypercapitalism.</span>
         </h2>
+        
+        <p className="text-gray-400 mt-4">
+          No Drag, No Legacy, Just Execution.
+        </p>
         
         <div className="flex justify-center items-center gap-6">
           <a href="#" className="text-white/60 hover:text-white transition-colors">

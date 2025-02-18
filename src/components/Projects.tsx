@@ -4,7 +4,7 @@ const Projects = () => {
     <section className="bg-dark text-white py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-mono font-bold mb-12 text-center">
-          Focus Areas & <span className="text-neon-pink">Projects</span>
+          Projects & <span className="text-neon-pink">Focus Areas</span>
         </h2>
         
         <div className="grid gap-6">
@@ -25,20 +25,20 @@ const Projects = () => {
 
 const projects = [
   {
-    title: "AI Infrastructure",
-    description: "Building the foundational layers for AI-first businesses.",
+    title: "Reinventing Proven Models",
+    description: "Applying AI to time-tested business models for instant dominance, similar to Rocket Internet—but faster.",
   },
   {
-    title: "Financial Technologies",
-    description: "Reimagining financial systems for the AI era.",
+    title: "Underserved Niches",
+    description: "We go where innovation lags: creator platforms, adult content, gambling, and overlooked fintech. Demand is there—execution isn't.",
   },
   {
-    title: "Creator Economy",
-    description: "Empowering creators with AI-powered tools and platforms.",
+    title: "Crypto & Sovereignty",
+    description: "We build for the sovereign individual—tools for self-sovereign finance, privacy, and identity.",
   },
   {
-    title: "Data Analytics",
-    description: "Turning data into actionable insights through AI-powered analytics.",
+    title: "Demographic Shifts",
+    description: "Tapping into high-growth but neglected markets—single middle-aged women, faith-based communities, the elderly.",
   },
 ];
 

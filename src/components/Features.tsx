@@ -12,14 +12,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div key={index} className="p-6 rounded-lg bg-white/5 backdrop-blur-lg border border-white/10 hover:border-neon-green/50 transition-all">
               <h3 className="text-xl font-mono font-bold mb-6 text-neon-green">{feature.title}</h3>
-              <ul className="space-y-4">
-                {feature.points.map((point, idx) => (
-                  <li key={idx} className="flex items-start gap-2">
-                    <span className="text-neon-pink font-mono">→</span>
-                    <span className="text-gray-400">{point}</span>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-gray-400">{feature.description}</p>
             </div>
           ))}
         </div>
@@ -31,27 +24,15 @@ const Features = () => {
 const features = [
   {
     title: "Extreme Velocity",
-    points: [
-      "AI-powered idea validation in days, not months",
-      "Automated execution pipelines",
-      "Rapid go-to-market strategy",
-    ],
+    description: "We are an AI-native venture studio built for instant execution. No slow fundraising, no long product cycles—just rapid idea validation, automation, and ruthless distribution.",
   },
   {
-    title: "Liquidity Focused",
-    points: [
-      "Optimized for fast exits",
-      "Secondary market strategies",
-      "Multiple monetization paths",
-    ],
+    title: "Fast Liquidity",
+    description: "Forget 10-year VC exits. We optimize for fast turnarounds, secondary liquidity, acquisitions, token models, and rapid fundraising.",
   },
   {
     title: "Data Flywheel",
-    points: [
-      "Self-reinforcing data loops",
-      "Predictive market analytics",
-      "Continuous optimization",
-    ],
+    description: "Every launch feeds into a compounding data flywheel, refining our ability to predict, optimize, and exploit market inefficiencies at scale.",
   },
 ];
 
