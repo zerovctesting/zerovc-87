@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: './',  // Using relative path for GitHub Pages
+  base: '',  // Empty base path
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
