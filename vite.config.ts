@@ -1,11 +1,10 @@
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/zerovctesting/',  // Keep the base path for GitHub Pages
+  base: '/zerovc-87/',  // Replace with your repository name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
