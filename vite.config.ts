@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/zerovctesting/',  // Set base to match GitHub repository name
+  base: '/zerovctesting/',  // Keep the base path for GitHub Pages
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
