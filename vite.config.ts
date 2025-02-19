@@ -4,8 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-<<<<<<< HEAD
-  base: '/zerovc-87/',  // This should match your repository name
+  base: '/zerovc-87/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -21,9 +20,6 @@ export default defineConfig(({ mode }) => ({
       },
     },
   },
-=======
-  base: './',  // Use relative paths
->>>>>>> 2318bdb278da8d128e370bd3260914eef75135be
   server: {
     host: "::",
     port: 8080,
